@@ -1,6 +1,7 @@
 require 'will_paginate'
 require 'ya2yaml'
-require 'tolk/engine'
 
 module Tolk
+  autoload :Import, 'tolk/import'
+  autoload :Sync,   'tolk/sync'
 end

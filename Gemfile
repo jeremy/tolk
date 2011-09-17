@@ -1,1 +1,6 @@
-gem 'will_paginate', :git => 'http://github.com/mislav/will_paginate.git', :branch => 'rails3'
+source 'http://rubygems.org'
+
+gemspec
+
+gem 'rails', '~> 3.0.10'
+gem 'webrat'
